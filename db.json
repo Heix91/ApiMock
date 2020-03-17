@@ -5,17 +5,17 @@
       "name": "AFT_report1",
 	  "steps": [
 		{
-			"timestamp": "17.03.20 08:39:30.61"
+			"timestamp": "17.03.20 08:39:30.61",
 			"type": "param",
 			"contents": "Creating connection to 0.0.0.0"
 		},
 		{
-			"timestamp": "17.03.20 08:39:53.05"
+			"timestamp": "17.03.20 08:39:53.05",
 			"type": "pass",
 			"contents": "Player created"
 		},
 		{
-			"timestamp": "17.03.20 08:39:53.39"
+			"timestamp": "17.03.20 08:39:53.39",
 			"type": "fail",
 			"contents": "Player cannot log in"
 		}
@@ -26,17 +26,17 @@
       "name": "AFT_report2",
 	  "steps": [
 		{
-			"timestamp": "15.03.20 08:39:30.61"
+			"timestamp": "15.03.20 08:39:30.61",
 			"type": "param",
 			"contents": "Creating connection to 0.0.0.0"
 		},
 		{
-			"timestamp": "15.03.20 08:39:53.05"
+			"timestamp": "15.03.20 08:39:53.05",
 			"type": "pass",
 			"contents": "Player created"
 		},
 		{
-			"timestamp": "15.03.20 08:39:53.05"
+			"timestamp": "15.03.20 08:39:53.05",
 			"type": "pass",
 			"contents": "Deposit successful"
 		},
@@ -47,17 +47,17 @@
       "name": "AFT_report3",
 	  "steps": [
 		{
-			"timestamp": "17.03.21 08:39:30.61"
+			"timestamp": "17.03.21 08:39:30.61",
 			"type": "param",
 			"contents": "Creating connection to 0.0.0.0"
 		},
 		{
-			"timestamp": "17.03.21 08:39:53.05"
+			"timestamp": "17.03.21 08:39:53.05",
 			"type": "pass",
 			"contents": "Player created"
 		},
 		{
-			"timestamp": "17.03.21 08:39:53.39"
+			"timestamp": "17.03.21 08:39:53.39",
 			"type": "fail",
 			"contents": "Withdraw failed, insufficient funds!"
 		}
