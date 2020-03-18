@@ -1,76 +1,86 @@
 {
-  "reports": [
-    {
-      "id": 1,
-      "name": "AFT_report1",
-	  "steps": [
-		{
-			"id": "1",
-			"timestamp": "17.03.20 08:39:30.61",
-			"type": "param",
-			"contents": "Creating connection to 0.0.0.0"
+	"reports": [{
+			"id": 1,
+			"name": "AFT_report1",
+			"steps": [{
+					"id": "1",
+					"timestamp": "17.03.20 08:39:30.61",
+					"_rowVariant": "secondary",
+					"contents": "Creating connection to 0.0.0.0"
+				},
+				{
+					"id": "2",
+					"timestamp": "17.03.20 08:39:53.05",
+					"_rowVariant": "success",
+					"contents": "Player created"
+				},
+				{
+					"id": "3",
+					"timestamp": "17.03.20 08:39:53.39",
+					"_rowVariant": "primary",
+					"contents": "Step 1: Trying to log in"
+				},
+				{
+					"id": "4",
+					"timestamp": "17.03.20 08:39:53.44",
+					"_rowVariant": "secondary",
+					"_showDetails": "false"
+					"contents": "Network Mockup (3) OUT: com.playtech.galaxy.protocol.ums.login.LoginRequest...",
+					"details": "Actions => System.Collections.Generic.List`1[com.playtech.galaxy.protocol.ums.general.ActionType]\n   Capacity => 0\n   Count => 0\n   Item => \n CurrencyCode => USD\n CustomData => null\n ErrorCode => 666\n ErrorText => null\n Flow => 70069927339684608-3\n   Composite => 2242237674869907459\n   Hops => 3\n   Id => 70069927339684608\n FunPlayerCode => null\n InactivityTimeout => 30\n IpCountryCode => null\n MessageId => 9980126\n PlayerCode => 14887921\n PlayerSessionId => 4869618808\n PreviousLoginTime => null\n RealMode => True\n RememberMeToken => null\n SessionToken => com.playtech.galaxy.protocol.ums.general.SessionToken\n   CreationTime => 2020-03-17 23:22:18.000\n   ExpirationTime => 2020-03-18 23:22:18.000\n   IssuerSystemId => 4200\n   MaxIdlePeriod => null\n   SessionToken => 5fM9vFZuG4OxrwtCA97wsMBQQICQoNBo\n SessionValidationData => null\n SsoLoginCount => 1\n SsoStartTime => 2020-03-17 23:22:18.909\n SystemIds => System.Collections.Generic.List`1[System.String]\n   Capacity => 0\n   Count => 0\n   Item => \n UnknownCountryReason => not_resolved\n UserErrors => null\n UserId => X0t8pyxFR9sHncto1MunH32QGimQ==\n Username => PCM_ASERegr_YDT:53324492"
+				},
+				{
+					"id": "5",
+					"timestamp": "17.03.20 08:39:55.39",
+					"_rowVariant": "danger",
+					"contents": "Player cannot log in"
+				}
+			]
 		},
 		{
-			"id": "2",
-			"timestamp": "17.03.20 08:39:53.05",
-			"type": "pass",
-			"contents": "Player created"
+			"id": 2,
+			"name": "AFT_report2",
+			"steps": [{
+					"id": "1",
+					"timestamp": "15.03.20 08:39:30.61",
+					"_rowVariant": "secondary",
+					"contents": "Creating connection to 0.0.0.0"
+				},
+				{
+					"id": "2",
+					"timestamp": "15.03.20 08:39:53.05",
+					"_rowVariant": "success",
+					"contents": "Player created"
+				},
+				{
+					"id": "3",
+					"timestamp": "15.03.20 08:39:53.05",
+					"_rowVariant": "success",
+					"contents": "Deposit successful"
+				}
+			]
 		},
 		{
-			"id": "3",
-			"timestamp": "17.03.20 08:39:53.39",
-			"type": "fail",
-			"contents": "Player cannot log in"
+			"id": 3,
+			"name": "AFT_report3",
+			"steps": [{
+					"id": "1",
+					"timestamp": "17.03.21 08:39:30.61",
+					"_rowVariant": "secondary",
+					"contents": "Creating connection to 0.0.0.0"
+				},
+				{
+					"id": "2",
+					"timestamp": "17.03.21 08:39:53.05",
+					"_rowVariant": "success",
+					"contents": "Player created"
+				},
+				{
+					"id": "3",
+					"timestamp": "17.03.21 08:39:53.39",
+					"_rowVariant": "danger",
+					"contents": "Withdraw failed, insufficient funds!"
+				}
+			]
 		}
-	  ]
-    },
-	{
-      "id": 2,
-      "name": "AFT_report2",
-	  "steps": [
-		{
-			"id": "1",
-			"timestamp": "15.03.20 08:39:30.61",
-			"type": "param",
-			"contents": "Creating connection to 0.0.0.0"
-		},
-		{
-			"id": "2",
-			"timestamp": "15.03.20 08:39:53.05",
-			"type": "pass",
-			"contents": "Player created"
-		},
-		{
-			"id": "3",
-			"timestamp": "15.03.20 08:39:53.05",
-			"type": "pass",
-			"contents": "Deposit successful"
-		}
-	  ]
-    },
-	{
-      "id": 3,
-      "name": "AFT_report3",
-	  "steps": [
-		{
-			"id": "1",
-			"timestamp": "17.03.21 08:39:30.61",
-			"type": "param",
-			"contents": "Creating connection to 0.0.0.0"
-		},
-		{
-			"id": "2",
-			"timestamp": "17.03.21 08:39:53.05",
-			"type": "pass",
-			"contents": "Player created"
-		},
-		{
-			"id": "3",
-			"timestamp": "17.03.21 08:39:53.39",
-			"type": "fail",
-			"contents": "Withdraw failed, insufficient funds!"
-		}
-	  ]
-    }
-  ]
+	]
 }
